@@ -10,5 +10,7 @@ package com.controller;
  * @author LAB 2 PC 13
  */
 public interface frame6 {
-    
+    public void Simpan (menyetujui_siswa absensi) throws SQLException;
+    public void Batal (menyetujui_siswa absensi) throws SQLException;
+    public void Tampil (menyetujui_siswa absensi) throws SQLException;
 }
